@@ -1,0 +1,46 @@
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+ 
+  .form-group {
+    margin-bottom: 20px;
+  }
+ 
+  label {
+    display: block;
+  }
+ 
+  input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+  }
+ 
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+ 
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  .link{
+    padding-left: 75px;
+  }
